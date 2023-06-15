@@ -1,0 +1,11 @@
+@media screen and (max-width: 950px) {
+  .search-bar-container {
+    padding: 10vh;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .search-bar-container {
+    padding: 20vh 5vh;
+  }
+}
