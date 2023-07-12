@@ -11,8 +11,12 @@ const SearchData = () => {
       <div className="App">
         <div className="search-bar-container">
           <h1 className="header-title">
-            <img className="logo-img" src={logo} alt="" />
-            Search Data
+            <div className="logo-container">
+              <img className="logo-img" src={logo} alt="" />
+            </div>
+            <div className="text-center">
+              THIS IS BETA ONLY FOR TESTING PURPOSE
+            </div>
           </h1>
           <SearchBar setResults={setResults} />
           <SearchResults results={results} />
