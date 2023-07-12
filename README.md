@@ -22,6 +22,10 @@ Once the app say
 
   ➜  Local:   http://localhost:5173/
   ➜  Network: use --host to expose
+
 Open the browser and navigate to your localhost using the following URL
+  
    "http://localhost:5173/SearchData"
+
+
 check console logs if needed, and please feel free to make the changes to this readme file anytime.
