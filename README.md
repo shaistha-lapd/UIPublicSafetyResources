@@ -25,7 +25,7 @@ Once the app say
 
 Open the browser and navigate to your localhost using the following URL
   
-   "http://localhost:5173/SearchData"
+   "localhost:5173/SearchData"
 
 
 check console logs if needed, and please feel free to make the changes to this readme file anytime.
