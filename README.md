@@ -1,7 +1,8 @@
 # UIPublicSafetyResources
 
 ### Installation
-Clone the repository: bash Copy code git clone
+Clone the repository: bash Copy code:
+
     "git clone https://github.com/shaistha-lapd/UIPublicSafetyResources.git"
 
  Navigate to the project directory (the folder you cloned the project in) copy the commmand in terminal
