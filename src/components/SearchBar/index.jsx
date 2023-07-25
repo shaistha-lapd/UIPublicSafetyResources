@@ -49,11 +49,8 @@ class SearchBar extends Component {
   render() {
     return (
       <div className="w-100">
-        <div className="search-form-container">
-          <div>
-            <h2>Search</h2>
-          </div>
-          <div className="input-wrapper">
+        <div className="search-form-container text-right">
+          <div className="input-wrapper w-100">
             <FaSearch id="search-icon" />
             <input
               type="text"
@@ -64,18 +61,18 @@ class SearchBar extends Component {
               id=""
             />
           </div>
-        </div>
-        <div className="Advance-Search-btn-container">
           <button
-            className="Advance-Search-btn float-right m-2"
+            className="Advance-Search-btn m-2"
             onClick={this.handleSearch}
           >
-            Advance Search
+            Advanced
           </button>
         </div>
-        <div className="download-data position-relative">
+        {this.resultsData && <div className="download-data position-relative">
           <button className="btn btn-info"> Download</button>
-        </div>
+        </div> }
+
+        
       </div>
     );
   }

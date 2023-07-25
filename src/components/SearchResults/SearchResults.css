@@ -9,6 +9,5 @@
   margin: 1rem;
   max-height: 300px;
   position: absolute;
-  top: -250px;
   overflow-y: auto;
-}
+} 

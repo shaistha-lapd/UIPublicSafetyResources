@@ -5,6 +5,7 @@
 }
 
 .logo-container {
+  display: none;
   background-color: #b9b9b9;
   padding: 5px 10px;
 }
@@ -20,7 +21,7 @@
   font-size: 20px;
   font-weight: bold;
   align-items: center;
-  background-color: red;
+  background-color: #fff;
   width: 100%;
   margin: 0;
   color: #fff;
