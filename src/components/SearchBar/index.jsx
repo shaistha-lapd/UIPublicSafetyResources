@@ -3,6 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import "./SearchBar.css";
 import carddata from "../../Alldata";
 
+
 class SearchBar extends Component {
   constructor(props) {
     super(props);
